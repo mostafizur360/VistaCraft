@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="architect.png" type="image/x-icon" />
+    <title>VistaCraft</title>
+    <!--INFO: Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!--INFO: CSS-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="preload">
+            <img src="preloader.gif" alt="">
+        </div>
+    </div>
+
+
+    <!--INFO: NAVBAR-->
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container container-fluid">
+            <a class="navbar-brand" href="#">VistaCraft </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        VistaCraft
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav gap-3 justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--INFO: HERO SECTION-->
+
+    <section id="home" class="hero_section">
+        <div class="container hero_container">
+            <div class="header">
+                <h1>
+                    Brand New<br />Group of <span class="highlight">Architect</span>
+                </h1>
+                <p>
+                    "We transform ideas into architectural masterpieces. Innovative,
+                    sustainable, and built to inspire."
+                </p>
+                <button class="mybtn">Explore More</button>
+            </div>
+            <div class="hero_img">
+                <img src="images/banner.png" alt="Hero Image" />
+            </div>
+        </div>
+    </section>
+
+
+    <!--INFO: ABOUT SECTION-->
+
+
+    <section id="about">
+        <div class="container about_container">
+            <div class="about_images">
+                <img src="images/team1.png" alt="">
+                <img src="images/team2.png" alt="">
+                <img src="images/team3.png" alt="">
+                <img src="images/team4.png" alt="">
+            </div>
+
+            <div class="about_content">
+                <h2 class="about_title">
+                    <span class="highlight">About</span> Us
+                </h2>
+                <p>
+                    Welcome to VistaCraft, where innovation meets sustainability. We are a team of architects dedicated
+                    to creating.
+                </p>
+                <button class="mybtn">Read More</button>
+            </div>
+    </section>
+
+
+    <!--INFO: FEATURES SECTION-->
+
+    <section id="features">
+        <div class="container features_container">
+            <div class="features_content">
+                <div class="features_title">
+                    <h2>
+                        Features You Will <br> Love & Enjoy
+                    </h2>
+                    <p>
+                        At VistaCraft, we believe in the power of architecture to transform
+                        spaces <br> into captivating works of art.
+                    </p>
+                </div>
+
+                <div class="features_list">
+                    <div class="features_item">
+                        <h4>High Quality</h4>
+                        <p>"Our dedication to excellence drives every project we undertake. We ensure that each design
+                            reflects superior craftsmanship and attention to detail, delivering the highest standards in
+                            architecture."
+
+                        </p>
+                    </div>
+                    <div class="features_item">
+                        <h4>Modern Design</h4>
+                        <p>"At the core of our work lies innovation and creativity. We specialize in designing modern,
+                            aesthetically pleasing structures that seamlessly blend style with functionality."
+                        </p>
+                    </div>
+                    <div class="features_item">
+                        <h4>Customer Satisfaction</h4>
+                        <p>"Our clients are at the heart of everything we do. We strive to exceed expectations, ensuring
+                            every project is tailored to meet their unique needs and bring their vision to life.".
+                        </p>
+                    </div>
+                    <div class="features_item">
+                        <h4>Timely Delivery</h4>
+                        <p>"We value your time and trust. With meticulous planning and execution, we are committed to
+                            completing projects on schedule without compromising quality."
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="features_images">
+                <img src="images/architect.png" alt="">
+                <div class="exprrience">
+                    <h2>10+ Years</h2>
+                    <p>Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--INFO: some fact SECTION-->
+
+    <section id="facts">
+        <div class="container facts_container">
+            <div class="fact_tittle">
+                <h2>Some Facts</h2>
+                <p>At VistaCraft, we believe in the power of <br> architecture to transform spaces into captivating
+                    works of art.</p>
+            </div>
+
+            <div class="facts_list">
+                <div class="facts_item">
+                    <img src="images/icons/ribon.png" alt="">
+                    <h4>54</h4>
+                    <p>Award-winning</p>
+                </div>
+                <div class="facts_item">
+                    <img src="images/icons/projects.png" alt="">
+                    <h4>1458</h4>
+                    <p>Projects Done</p>
+                </div>
+                <div class="facts_item">
+                    <img src="images/icons/customers.png" alt="">
+                    <h4>590</h4>
+                    <p>Clients Worked</p>
+                </div>
+                <div class="facts_item">
+                    <img src="images/icons/email.png" alt="">
+                    <h4>2258</h4>
+                    <p>Email Sent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--info: sponsor section-->
+    <section id="sponsor">
+        <div class="container">
+            <div class="sponsor_content text-center">
+                <h2 class="mb-2 fs-2  fw-bold">Our Sponsors</h2>
+                <p style="color: var(--gray-color);">At VistaCraft, we are proud to have a strong and diverse team of
+                    sponsors who support us in every aspect of our work.</p>
+            </div>
+            <div class="silder">
+                <div class="slider_list">
+                    <div class="slider_item"><img src="images/sponsors/amazon.png" alt=""></div>
+                    <div class="slider_item"><img src="images/sponsors/spotify.png" alt=""></div>
+                    <div class="slider_item"><img src="images/sponsors/google.png" alt=""></div>
+                    <div class="slider_item"><img src="images/sponsors/telerama.png" alt=""></div>
+                    <div class="slider_item"><img src="images/sponsors/figma.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-4">
+        <p class="text-center">All rights reserved © 2025 VistaCraft</p>
+    </footer>
+
+
+    <!--INFO: Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        window.onload = function () {
+  const preloader = document.getElementById("preloader");
+
+  document.body.style.overflow = "hidden";
+  setTimeout(() => {
+    preloader.classList.add("hidden"); 
+    document.body.style.overflow = ""; 
+  }, 3000); 
+};
+
+    </script>
+</body>
+
+</html>
